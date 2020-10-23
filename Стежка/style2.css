@@ -1,0 +1,457 @@
+    
+ 
+ body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'GOTHIC';
+ }
+ 
+ /*подключаемые шрифты*/
+@font-face {
+    font-family: 'GOTHICI';
+    src: url(' http://expert-poisk.ru/360/font2/GOTHICI.ttf');
+    }                             
+@font-face {
+    font-family: 'GOTHICBI';
+    src: url('http://expert-poisk.ru/360/font2/GOTHICBI.ttf');
+    }
+@font-face {
+    font-family: 'GOTHICB';
+    src: url('http://expert-poisk.ru/360/font2/GOTHICB.ttf');
+    }
+@font-face {
+    font-family: 'GOTHICB';
+    src: url('http://expert-poisk.ru/360/font2/GOTHICB.ttf');
+    }
+@font-face {
+    font-family: 'GOTHIC';
+    src: url('http://expert-poisk.ru/360/font2/GOTHIC.ttf');
+    }            
+@font-face {
+        font-family: 'Kharkiv_Tone';
+        src: url('http://expert-poisk.ru/360/font2/Kharkiv_Tone.ttf');
+        } 
+
+/*__________________________________*/
+.header_wrap{
+    background: url('http://expert-poisk.ru/files/ok/uploads/2415/1602849313-fon_block1.jpg');
+    height: 953px;
+}
+
+        .head_men{
+            margin-top: -22px;
+         }
+         
+          .head_men_list{
+             display: -webkit-box;
+             display: -ms-flexbox;
+             display: flex;
+             list-style: none;
+             position: relative;
+             padding-left: 75px;
+             flex-wrap: wrap;
+          }
+         
+          .head_men_item {
+             margin-right: 22px;
+             padding-top: 60px;
+             letter-spacing: -0.25px;
+             text-shadow: 0px 0px 20px #000;
+         }
+            
+         .head_men_link{
+             font-size: 32px;
+             padding: 0px 8px 0px;
+             color: #fff;
+             text-decoration: none;
+             transition: ease-out .3s .1s;
+             -moz-transition: ease-out .3s .1s;
+             -o-transition: ease-out .3s .1s;
+             -webkit-transition: ease-out .3s;
+             -webkit-transition-delay: .1s;
+             font-family: 'GOTHIC';
+         }
+         
+         .head_men_link:hover{
+             color: #6cbe8e;
+             text-decoration: none;
+         }
+         .head_men_cont{
+            display: flex;
+            justify-content: space-between;
+         }
+         .head_men{
+         
+         }
+         .head-tel-1{
+            font-size: 37px;
+            color: #00bf8e;
+            font-family: 'GOTHICB';
+            margin-top: 30px;
+            display: block;
+            text-decoration: none;
+         }
+         
+         .head-tel-1:hover{
+           text-decoration: none;
+           color: #00bf8e;
+         }
+         .head_tel {
+             align-items: end;
+             justify-content: flex-end;
+             padding-right: 90px;
+             font-family: 'GOTHIC';
+             color: #fff;
+         }
+         .head_tel p{
+             padding: 0px;
+             margin: 0px;
+             font-size: 27px;
+            }
+         .head_text{
+             padding-left: 4%;
+             padding-top: 160px;
+         }
+         .head_text p{
+             font-size: 89px;
+             color: #fff;
+             text-transform: uppercase;
+             line-height: 1.1em;
+             font-family: 'Kharkiv_Tone';
+             padding: 40px 0px 15px;
+             margin: 0px;
+         }
+         .head_text span{
+            font-size: 48px;
+            font-family: 'Kharkiv_Tone';
+            color: #fff;
+            padding-bottom: 30px;
+            display: block;
+         }
+         .order-button{
+            font-size: 30px;
+            font-family: 'GOTHIC';
+            color: #fff;
+            background: #f46883;
+            padding: 5px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            -moz-transition: ease-out .3s .1s;
+            -o-transition: ease-out .3s .1s;
+            -webkit-transition: ease-out .3s;
+            -webkit-transition-delay: .1s;
+            transition: ease-out .3s .1s;
+         }
+
+         .order-button:hover{
+         border-radius: 0px 20px;
+         background: #6cbf8e;
+         }
+         .wrapper-products {
+            height: 970px;
+            padding: 55px 100px;
+        }
+        .products-content{
+            width: 100%;
+        }
+        .products-img-wrapper{
+          
+           display: flex;
+         justify-content: space-between;
+        }
+        .products-img-block1{
+            width: 1300px;
+        }
+        .block-1-2-wrapper,.block-3-4-wrapper{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 20px;
+        }
+        .products-img-wrapper p{
+            position: absolute;
+            margin-top: -61px;
+            font-size: 30px;
+            margin-left: 30px;
+            padding-right: 8px;
+        } 
+        .products-content h2{
+            font-size: 40px;
+            text-transform: uppercase;
+            font-family: 'Kharkiv_Tone';
+        }
+        .products-img-wrapper a{
+            color: #000;
+            display: block;
+        }
+        .products-img-wrapper a{
+            color: #000;
+            display: block;
+        }
+        
+     .products-img-wrapper a:hover img{
+         opacity: 0.6;
+     }
+    .products-link1{
+        color: #fff !important;
+        width: 521px;
+        height: 324px;
+    }
+    
+    .products-link1:hover{
+      background: #6cbf8e;
+      width: 521px;
+      height: 324px;
+      border-radius: 40px 40px 0px;
+    }
+        .products-link2{
+            width: 748px;
+            height: 321px;
+        }
+        .products-link2:hover{
+            background: #6cbf8e;
+            width: 748px;
+            height: 321px;
+            border-radius: 30px 30px 0px;
+            color: #fff;
+            
+            }
+        .products-link3{
+            width: 898px;
+            height: 462px;
+        }
+        .products-link3:hover{
+            background: #6cbf8e;
+            border-radius: 45px 45px 0px;
+            color: #fff;
+            }
+        .products-link4{
+            width: 367px;
+            height: 460px;
+        }
+        .products-link4:hover{
+            background: #6cbf8e;
+            border-radius: 45px 45px 0px;
+            color: #fff;
+            }
+
+        .products-link5{
+            width: 384px;
+            height: 812px;
+        }
+        .products-link5:hover{
+            background: #6cbf8e;
+            border-radius: 45px 45px 0px;
+            color: #fff;
+        }
+        .about-company-wrapper{
+            width: 100%;
+            height: 751px;
+
+        }
+
+        .about-company-text{
+            width: 953px;
+            height: 474px;
+            background: #6cbf8e;
+            border-radius: 45px 45px 0px;
+            z-index: 2;
+            position: relative;
+            margin-top: 160px;
+            color: #fff;
+            margin-left: 100px;
+        }
+        .about-company-text h2{
+            font-size: 40px;
+            text-transform: uppercase;
+            font-family: 'Kharkiv_Tone';
+            padding-top: 90px;
+            padding-left: 90px;
+        }
+        .about-company-text p{
+            font-size: 37px;
+            padding-left: 90px;
+        }
+        .about-company-img{
+            position: absolute;
+            right: 0px;
+            margin-top: -555px;
+            z-index: 1;
+        }
+
+
+ .slide_caption_6009,
+  .slide_text_6009 {
+    display: none;
+  }
+
+  .drawings {
+    padding: 57px 0px 0 86px;
+    min-height: 878px;
+  }
+.drawings-heading{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Kharkiv_Tone';
+  margin-top: 0px;
+  margin-bottom: 72px;
+}
+
+
+  .carousel {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .carousel-cont {
+    width: 1690px;
+    overflow: hidden;
+  }
+
+  .carousel-previous,
+  .carousel-next {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 100px;
+  }
+
+  .carousel-previous:hover,
+  .carousel-next:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .carousel-previous:active,
+  .carousel-next:active {
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+  .carousel-next > img {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .carousel-list {
+    list-style: none;
+    padding: 0;
+    width: 1690px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .carousel-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 40px;
+  }
+
+  .carousel-item-link {
+    position: relative;
+    display: block;
+  }
+
+  .carousel-item-link::before {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 5px;
+    content: "";
+    border-radius: 50px;
+  }
+
+  .carousel-item-link:hover::before,
+  .carousel-item-link:focus::before {
+    background-color: #6cbf8e7a;
+    border-radius: 50px;
+  }
+
+ 
+.all-drawing{
+    margin: 53px 155px 0px;
+}
+.all-drawing-button{
+    font-size: 30px;
+    font-family: 'GOTHIC';
+    color: #fff;
+    background: #f46883;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    -moz-transition: ease-out .3s .1s;
+    -o-transition: ease-out .3s .1s;
+   -webkit-transition: ease-out .3s;
+    -webkit-transition-delay: .1s;
+    transition: ease-out .3s .1s;
+   }
+
+.all-drawing-button:hover{
+         border-radius: 0px 20px;
+         background: #6cbf8e;
+}
+
+.seo-text-wrapper{
+ padding: 100px 0px 0px 55px;
+ height: auto;
+}
+
+.seo-text h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Kharkiv_Tone';
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.seo-text p{
+    font-size: 28px;
+    padding-right: 15px;
+}
+.seo-text img{
+    float: right;
+    margin-left: 30px;
+}
+.footer-cont-wrapper{
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 100px;
+     background: url(http://expert-poisk.ru/files/ok/uploads/2415/1603177305-podval.jpg) no-repeat;
+     height: auto;
+}
+.footer-cont-tel{
+     font-size: 42px;
+     color: #6cbf8f ;
+     font-family: 'GOTHICB';
+     text-decoration: none;
+}
+.footer-cont-tel:hover{
+    color: #6cbf8f;
+    text-decoration: none;
+}
+.footer-cont p{
+    font-size: 28px;
+}
+.footer-cont span{
+    color: #6cbf8f;
+}
+.footer-cont-adres{
+    color: #fff;
+    margin-top: 80px;
+}
