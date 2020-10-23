@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+ /*подключаемые шрифты*/
+ @font-face {
+    font-family: 'corbel';
+    src: url(' http://expert-poisk.ru/360/font2/corbel.ttf');
+ }
+    
+ @font-face {
+    font-family: 'corbelb';
+    src: url(' http://expert-poisk.ru/360/font2/corbelb.ttf');
+ }
+    
+
+ @font-face{
+    font-family: 'CenturyGothicBod';
+    src: url('http://expert-poisk.ru/360/font2/CenturyGothicBod.ttf');
+ }
+    
+ @font-face{
+        font-family: 'Cocomat-Pro-Regular-trial';
+        src: url('http://expert-poisk.ru/360/font2/Cocomat-Pro-Regular-trial.ttf');
+ }
+
+ @font-face{
+    font-family: 'Cocomat-Pro-Medium';
+    src: url('http://expert-poisk.ru/360/font2/Cocomat-Pro-Medium.ttf');
+ }
+
+ @font-face{
+    font-family: 'Cocomat-Pro-Light-trial';
+    src: url('http://expert-poisk.ru/360/font2/Cocomat-Pro-Light-trial.ttf');
+ }
+    
+    
+ .main-menu-wrapper{
+    height: 770px;
+    background: url(http://expert-poisk.ru/files/ex/uploads/1125/1603452528-fon1.jpg) no-repeat;
+    padding: 51px 84px 0px;
+ }   
+ .menu-head{
+     margin-top: 390px;
+ }
+
+ .menu-head-list{
+    list-style: none;   
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ .menu-head-item{
+    font-size: 30px;
+    padding-top: 3px;
+    letter-spacing: 0.6px;
+ }
+ .menu-head-link{
+    font-family: 'corbel';
+    text-decoration: none;
+    color: #6f6f6f;
+ }
+
+ .menu-head-link:hover{
+    text-decoration: none;
+    color: #6fb1c0;
+ }
+
+ .header-tel{
+    font-size: 40px;
+    color: #6f6f6f;
+    font-family: 'CenturyGothicBod';
+    text-decoration: none;
+    letter-spacing: 0.6px;
+ }
+
+ .header-tel:hover
+ .header-tel:active{
+    font-size: 40px;
+    color: #6f6f6f;
+    font-family: 'CenturyGothicBod';
+    text-decoration: none;
+ }
+ .advantage-wrapper{
+    padding: 0px 80px;
+     background: url(http://expert-poisk.ru/files/ex/uploads/1125/1603464238-fon2.jpg);
+     height: auto;
+ }
+ .advantage-wrapper h2{
+    font-size: 97px;
+    color: #6f6f6f;
+    font-family: 'corbelb';
+    text-align: right;
+    margin: 0px;
+    letter-spacing: 0.6px;
+}
+.advantage-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.advantage-item{
+   padding-left: 130px;
+}
+.advantage-block{
+
+}
+.advantage-block img{
+    
+}
+.advantage-block p{
+    
+}
+
