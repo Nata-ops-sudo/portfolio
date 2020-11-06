@@ -1,381 +1,409 @@
-    
- 
- body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Codec-Pro-News';
- }
- 
- /*подключаемые шрифты*/
-@font-face {
-    font-family: 'CODEC-PRO-BOLD-TRIAL';
-    src: url(' http://expert-poisk.ru/360/font2/CODEC-PRO-BOLD-TRIAL.ttf');
-    }                             
-@font-face {
-    font-family: 'Cocomat-Pro-Regular-trial';
-    src: url('http://expert-poisk.ru/360/font2/Cocomat-Pro-Regular-trial.ttf');
-    }
-@font-face {
-    font-family: 'Codec-Pro-News';
-    src: url('http://expert-poisk.ru/360/font2/Codec-Pro-News.ttf');
-    }
-@font-face {
-    font-family: 'Codec-Pro-Light-trial';
-    src: url('http://expert-poisk.ru/360/font2/Codec-Pro-Light-trial.ttf');
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Codec-Pro-News';
     }
 
-@font-face {
-    font-family: 'Codec-Pro-Extrabold-trial';
-    src: url('http://expert-poisk.ru/360/font2/Codec-Pro-Extrabold-trial.ttf');
-}
-    
-/*__________________________________*/
-.header_wrap{
-    background: url('http://expert-poisk.ru/files/ex/uploads/396/1604480534-fon_menu.jpg');
-    height: 142px;
-    padding: 20px 60px 0px 80px;
-}
+    /*подключаемые шрифты*/
 
-.named{
-
-
-}
-.named p{
-    font-family: 'CODEC-PRO-BOLD-TRIAL';
-    font-size: 26px;
-    margin-top: 0px;
-    text-transform: uppercase;
-    line-height: 1.1em;
-}
-.named span{
-    font-family: 'Codec-Pro-Light-trial';
-    
-}
-.head_cont{
-            display: flex;
-            justify-content: space-between;
-            height: 70px;
- }
-.head_men{
-         
-}
-.head-tel-fax{
-   font-size: 30px;
-   color: #000;
-    font-family: 'Codec-Pro-Light-trial';
-    text-decoration: none;
-}
-.head-tel-fax:hover{
-    font-size: 30px;
-    color: #000;
-     font-family: 'Codec-Pro-Light-trial';
-     text-decoration: none;
- }
-.head-tel-1{
-            font-size: 31px;
-            color: #ef8310;
-            font-family: 'Codec-Pro-Extrabold-trial';
-            text-decoration: none;
-}
-.head-tel-1:before{
-    content: " ";
-  background-image: url(http://expert-poisk.ru/files/ex/uploads/396/1604480647-icon_tel.jpg);
-  background-size: cover;
-  height: 33px;
-  width: 33px;
-  margin-right: 5px;
-  display: inline-block;
-  vertical-align: middle;
-} 
-.head-tel-1:hover{
-           text-decoration: none;
-           color: #ef8310;
-}
-.head_tel {
-             align-items: end;
-             justify-content: flex-end;
-             color: #000;
-             font-family: 'Codec-Pro-Light-trial';
-}
-.head_tel p{
-             padding: 0px;
-             margin: 0px;
-             font-size: 30px;
-}
-.head_men{
-            margin-top: -22px;
-}
-         
- .head_men_list{
-             display: -webkit-box;
-             display: -ms-flexbox;
-             display: flex;
-             list-style: none;
-             position: relative;
-             padding-left: 0px;
-             flex-wrap: wrap;
-}
-         
-.head_men_item {
-             margin-right: 22px;
-             padding-top: 20px;
-             letter-spacing: -0.25px;
-}
-            
-.head_men_link{
-             font-size: 30px;
-             padding: 0px 8px 0px 0px;
-             color: #000;
-             text-decoration: none;
-             transition: ease-out .3s .1s;
-             -moz-transition: ease-out .3s .1s;
-             -o-transition: ease-out .3s .1s;
-             -webkit-transition: ease-out .3s;
-             -webkit-transition-delay: .1s;
-             font-family: 'CODEC-PRO-BOLD-TRIAL';
-             text-transform: uppercase;
-}
-         
-.head_men_link:hover{
-             color: #ef8310;
-             text-decoration: none;
-}
-
-
-.header-info-wrapper{
-    background: url('http://expert-poisk.ru/files/ex/uploads/396/1604480535-fon_shap.jpg');
-    height: 693px;
-    padding: 0px 20px 0px 80px;
-}
-.header-info-block1{
-    padding-top: 190px;
-}
-.header-info-block1 p{
-   font-size: 93px;
-   margin: 0px;
-   line-height: 1em;
-   color: #fff;
-}
-.header-info-block2{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 60px;
-}
-.header-info-block2 p:nth-child(1){
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'CODEC-PRO-BOLD-TRIAL';
-}
-.header-info-block2 p:nth-child(2){
-    font-size: 30px;
-}
-
-.benefit-cont{
-    background: url('http://expert-poisk.ru/files/ex/uploads/396/1604495266-fon_preim.jpg');
-    height: 1080px;
-    padding: 0px 20px 0px 80px;
-}
-.benefit-cont h2{
-    font-size: 40px;
-    padding-top: 30px;
-    font-weight: 100;
-}
-.benefit-cont p{
-    font-size: 30px;
-    text-transform: uppercase;
-    display: inline;
-    background-color: #d1692a;
-    line-height: 1.2em;
-    box-shadow: -8px 0 0 1px #d1692a, 8px 0 0 1px #d1692a;
-    color: #fff;
-    padding: 8px;
-}
-
-.benefit-text1{
-    position: absolute;
-    margin-top: 430px;
-    padding: .25em 0 .325em;
-    display: block;
-    animation: bounce-top 4s infinite both;
-    animation-iteration-count: 3; 
-    
-}
-.benefit-text2{
-    margin-left: 900px;
-    position: absolute;
-    margin-top: 280px;
-    padding: .25em 0 .325em;
-    display: block;
-    animation: bounce-left 4s infinite both;
-    animation-delay: 1s; 
-    animation-iteration-count: 3; 
-}
-.benefit-text3{
-    position: absolute;
-    margin-top: 870px;
-    animation: bounce-left 4s infinite both;
-    animation-delay: 1s; 
-    animation-iteration-count: 3; 
-}
-.benefit-text4{
-    position: absolute;
-    margin-top: 795px;
-    margin-left: 1430px;
-    animation: bounce-top 4s infinite both;
-    animation-iteration-count: 3; 
-}
-
-
-@keyframes bounce-top {
-    0% {
-      transform: translateY(-45px);
-      animation-timing-function: ease-in;
-      opacity: 1;
+    @font-face {
+      font-family: 'CODEC-PRO-BOLD-TRIAL';
+      src: url(' http://expert-poisk.ru/360/font2/CODEC-PRO-BOLD-TRIAL.ttf');
     }
-    24% {
-      opacity: 1;
-    }
-    40% {
-      transform: translateY(-24px);
-      animation-timing-function: ease-in;
-    }
-    65% {
-      transform: translateY(-12px);
-      animation-timing-function: ease-in;
-    }
-    82% {
-      transform: translateY(-6px);
-      animation-timing-function: ease-in;
-    }
-    93% {
-      transform: translateY(-4px);
-      animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87% {
-      transform: translateY(0px);
-      animation-timing-function: ease-out;
-    }
-    100% {
-      transform: translateY(0px);
-      animation-timing-function: ease-out;
-      opacity: 1;
-      animation-fill-mode:forwardsж
-    }
-  }
 
-  @keyframes bounce-left {
-    0% {
-      transform: translateX(-45px);
-      animation-timing-function: ease-in;
-      opacity: 1;
-      animation: bounce-left .5s forwards;
+    @font-face {
+      font-family: 'Cocomat-Pro-Regular-trial';
+      src: url('http://expert-poisk.ru/360/font2/Cocomat-Pro-Regular-trial.ttf');
     }
-    24% {
-      opacity: 1;
-    }
-    40% {
-      transform: translateX(-24px);
-      animation-timing-function: ease-in;
-    }
-    65% {
-      transform: translateX(-12px);
-      animation-timing-function: ease-in;
-    }
-    82% {
-      transform: translateX(-6px);
-      animation-timing-function: ease-in;
-    }
-    93% {
-      transform: translateX(-4px);
-      animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87% {
-      transform: translateX(0px);
-      animation-timing-function: ease-out;
-    }
-    100% {
-      transform: translateX(0px);
-      animation-timing-function: ease-out;
-      opacity: 1;
-    }
-  }
-  .about-company-wrapper{
-    background: url('http://expert-poisk.ru/files/ex/uploads/396/1604564210-fon_komp.jpg');
-    height: 545px;
-    padding: 120px 80px 0px 80px;
-  }
 
-  .about-company-wrapper h1{
-    font-size: 40px;
-    color: #fff;
-    font-weight: 100;
-    padding-bottom: 30px;
-  }
- .about-company-wrapper p{
-    font-size: 30px; 
-    color: #fff;      
-    line-height: 1.1em;
-  }
+    @font-face {
+      font-family: 'Codec-Pro-News';
+      src: url('http://expert-poisk.ru/360/font2/Codec-Pro-News.ttf');
+    }
 
-.services-wrapper{
-    height: 630px;
-    padding: 120px 80px 0px 80px;
+    @font-face {
+      font-family: 'Codec-Pro-Light-trial';
+      src: url('http://expert-poisk.ru/360/font2/Codec-Pro-Light-trial.ttf');
+    }
 
-}
-.services-wrapper h2{
-    padding-left: 80px;
-    font-size: 40px;
-    padding-top: 30px;
-}
-.services-list{
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.services-item{
-    padding-bottom: 60px;
-    padding-left: 60px;
-}
-.services-button{
-    text-align: center;
-    padding-top:  60px;
-    margin-bottom: 60px;
-}
+    @font-face {
+      font-family: 'Codec-Pro-Extrabold-trial';
+      src: url('http://expert-poisk.ru/360/font2/Codec-Pro-Extrabold-trial.ttf');
+    }
 
-.services-button a{
-    font-size: 30px;
-    text-transform: uppercase;
-    background: #ef8310;
-    padding: 10px 20px;
-    color: #fff;
-    display: block;
-   -moz-transition: ease-out .3s .1s;
-    -o-transition: ease-out .3s .1s;
-    -webkit-transition: ease-out .3s;
-    -webkit-transition-delay: .1s;
-    transition: ease-out .3s .1s;
-    width: 415px;
-    margin: 0px auto;
-}
+    /*__________________________________*/
 
-.services-button a:hover{
-    -moz-transform: rotate(5deg); /* Для Firefox */
-    -ms-transform: rotate(5deg); /* Для IE */
-    -webkit-transform: rotate(5deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(5deg); /* Для Opera */
-    transform: rotate(15deg);
-    font-size: 35px;
-    text-decoration: none;
-}
+    .header_wrap {
+      background: url('http://expert-poisk.ru/files/ex/uploads/396/1604480534-fon_menu.jpg');
+      height: 142px;
+      padding: 20px 60px 0px 80px;
+    }
 
+    .named {}
 
+    .named p {
+      font-family: 'CODEC-PRO-BOLD-TRIAL';
+      font-size: 26px;
+      margin-top: 0px;
+      text-transform: uppercase;
+      line-height: 1.1em;
+    }
+
+    .named span {
+      font-family: 'Codec-Pro-Light-trial';
+    }
+
+    .head_cont {
+      display: flex;
+      justify-content: space-between;
+      height: 70px;
+    }
+
+    .head_men {}
+
+    .head-tel-fax {
+      font-size: 30px;
+      color: #000;
+      font-family: 'Codec-Pro-Light-trial';
+      text-decoration: none;
+    }
+
+    .head-tel-fax:hover {
+      font-size: 30px;
+      color: #000;
+      font-family: 'Codec-Pro-Light-trial';
+      text-decoration: none;
+    }
+
+    .head-tel-1 {
+      font-size: 31px;
+      color: #ef8310;
+      font-family: 'Codec-Pro-Extrabold-trial';
+      text-decoration: none;
+    }
+
+    .head-tel-1:before {
+      content: " ";
+      background-image: url(http://expert-poisk.ru/files/ex/uploads/396/1604480647-icon_tel.jpg);
+      background-size: cover;
+      height: 33px;
+      width: 33px;
+      margin-right: 5px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .head-tel-1:hover {
+      text-decoration: none;
+      color: #ef8310;
+    }
+
+    .head_tel {
+      align-items: end;
+      justify-content: flex-end;
+      color: #000;
+      font-family: 'Codec-Pro-Light-trial';
+    }
+
+    .head_tel p {
+      padding: 0px;
+      margin: 0px;
+      font-size: 30px;
+    }
+
+    .head_men {
+      margin-top: -22px;
+    }
+
+    .head_men_list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      list-style: none;
+      position: relative;
+      padding-left: 0px;
+      flex-wrap: wrap;
+    }
+
+    .head_men_item {
+      margin-right: 22px;
+      padding-top: 20px;
+      letter-spacing: -0.25px;
+    }
+
+    .head_men_link {
+      font-size: 30px;
+      padding: 0px 8px 0px 0px;
+      color: #000;
+      text-decoration: none;
+      transition: ease-out .3s .1s;
+      -moz-transition: ease-out .3s .1s;
+      -o-transition: ease-out .3s .1s;
+      -webkit-transition: ease-out .3s;
+      -webkit-transition-delay: .1s;
+      font-family: 'CODEC-PRO-BOLD-TRIAL';
+      text-transform: uppercase;
+    }
+
+    .head_men_link:hover {
+      color: #ef8310;
+      text-decoration: none;
+    }
+
+    .header-info-wrapper {
+      background: url('http://expert-poisk.ru/files/ex/uploads/396/1604480535-fon_shap.jpg');
+      height: 693px;
+      padding: 0px 20px 0px 80px;
+    }
+
+    .header-info-block1 {
+      padding-top: 190px;
+    }
+
+    .header-info-block1 p {
+      font-size: 93px;
+      margin: 0px;
+      line-height: 1em;
+      color: #fff;
+    }
+
+    .header-info-block2 {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 60px;
+    }
+
+    .header-info-block2 p:nth-child(1) {
+      font-size: 36px;
+      text-transform: uppercase;
+      color: #fff;
+      font-family: 'CODEC-PRO-BOLD-TRIAL';
+    }
+
+    .header-info-block2 p:nth-child(2) {
+      font-size: 30px;
+    }
+
+    .benefit-cont {
+      background: url('http://expert-poisk.ru/files/ex/uploads/396/1604495266-fon_preim.jpg');
+      height: 1080px;
+      padding: 0px 20px 0px 80px;
+    }
+
+    .benefit-cont h2 {
+      font-size: 40px;
+      padding-top: 30px;
+      font-weight: 100;
+    }
+
+    .benefit-cont p {
+      font-size: 30px;
+      text-transform: uppercase;
+      display: inline;
+      background-color: #d1692a;
+      line-height: 1.2em;
+      box-shadow: -8px 0 0 1px #d1692a, 8px 0 0 1px #d1692a;
+      color: #fff;
+      padding: 8px;
+    }
+
+    .benefit-text1 {
+      position: absolute;
+      margin-top: 430px;
+      padding: .25em 0 .325em;
+      display: block;
+      animation: bounce-top 4s infinite both;
+      animation-iteration-count: 3;
+    }
+
+    .benefit-text2 {
+      margin-left: 900px;
+      position: absolute;
+      margin-top: 280px;
+      padding: .25em 0 .325em;
+      display: block;
+      animation: bounce-left 4s infinite both;
+      animation-delay: 1s;
+      animation-iteration-count: 3;
+    }
+
+    .benefit-text3 {
+      position: absolute;
+      margin-top: 870px;
+      animation: bounce-left 4s infinite both;
+      animation-delay: 1s;
+      animation-iteration-count: 3;
+    }
+
+    .benefit-text4 {
+      position: absolute;
+      margin-top: 795px;
+      margin-left: 1430px;
+      animation: bounce-top 4s infinite both;
+      animation-iteration-count: 3;
+    }
+
+    @keyframes bounce-top {
+      0% {
+        transform: translateY(-45px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+      }
+      24% {
+        opacity: 1;
+      }
+      40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in;
+      }
+      65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in;
+      }
+      82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in;
+      }
+      93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in;
+      }
+      25%, 55%, 75%, 87% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+        animation-fill-mode: forwardsж
+      }
+    }
+
+    @keyframes bounce-left {
+      0% {
+        transform: translateX(-45px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+        animation: bounce-left .5s forwards;
+      }
+      24% {
+        opacity: 1;
+      }
+      40% {
+        transform: translateX(-24px);
+        animation-timing-function: ease-in;
+      }
+      65% {
+        transform: translateX(-12px);
+        animation-timing-function: ease-in;
+      }
+      82% {
+        transform: translateX(-6px);
+        animation-timing-function: ease-in;
+      }
+      93% {
+        transform: translateX(-4px);
+        animation-timing-function: ease-in;
+      }
+      25%, 55%, 75%, 87% {
+        transform: translateX(0px);
+        animation-timing-function: ease-out;
+      }
+      100% {
+        transform: translateX(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+      }
+    }
+
+    .about-company-wrapper {
+      background: url('http://expert-poisk.ru/files/ex/uploads/396/1604564210-fon_komp.jpg');
+      height: 545px;
+      padding: 120px 80px 0px 80px;
+    }
+
+    .about-company-wrapper h1 {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 100;
+      padding-bottom: 30px;
+    }
+
+    .about-company-wrapper p {
+      font-size: 30px;
+      color: #fff;
+      line-height: 1.1em;
+    }
+
+    .services-wrapper {
+      height: 630px;
+      padding: 120px 80px 0px 80px;
+    }
+
+    .services-wrapper h2 {
+      padding-left: 80px;
+      font-size: 40px;
+      padding-top: 30px;
+    }
+
+    .services-list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .services-item {
+      padding-bottom: 60px;
+      padding-left: 60px;
+    }
+
+    .services-button {
+      text-align: center;
+      padding-top: 60px;
+      margin-bottom: 60px;
+    }
+
+    .services-button a {
+      font-size: 30px;
+      text-transform: uppercase;
+      background: #ef8310;
+      padding: 10px 20px;
+      color: #fff;
+      display: block;
+      -moz-transition: ease-out .3s .1s;
+      -o-transition: ease-out .3s .1s;
+      -webkit-transition: ease-out .3s;
+      -webkit-transition-delay: .1s;
+      transition: ease-out .3s .1s;
+      width: 415px;
+      margin: 0px auto;
+    }
+
+    .services-button a:hover {
+      -moz-transform: rotate(5deg);
+      /* Для Firefox */
+      -ms-transform: rotate(5deg);
+      /* Для IE */
+      -webkit-transform: rotate(5deg);
+      /* Для Safari, Chrome, iOS */
+      -o-transform: rotate(5deg);
+      /* Для Opera */
+      transform: rotate(15deg);
+      font-size: 35px;
+      text-decoration: none;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      clip: rect(0 0 0 0)
+    }
